@@ -5,8 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
-
 @Data
 @Builder
 @NoArgsConstructor
@@ -18,6 +16,4 @@ public class BookingEvent {
     private Long eventId;
 
     private Long ticketCount;
-
-    private BigDecimal totalPrice;
 }
