@@ -23,6 +23,8 @@ It is imported as a Maven dependency by other services, such as **BookingService
 
 ## 🧩 Architecture Integration
 
+![Architecture du projet](docs/schemaProject.png)
+
 The **Common DTO** module is part of a **5-repository microservice ecosystem**:
 
 1. **Common (common-dto)** – Shared DTOs and utilities used across all services.  
