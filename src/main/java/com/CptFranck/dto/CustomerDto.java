@@ -10,9 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CustomerDto {
-    private String keycloakId;
+    private String id;
 
     private String username;
 
     private String email;
+
+    private String address;
 }
